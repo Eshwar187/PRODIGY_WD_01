@@ -1,0 +1,25 @@
+body{
+    background-color: rgb(178, 201, 240);
+    width: 100%;
+}
+#navbar{
+    width: 100%;
+    height: 15vh;
+    position: absolute;
+}
+#menu{
+    display: flex;
+    margin-top:20px;
+    align-items: center;
+    justify-content: space-around;
+}
+#menu a{
+    text-decoration: none;
+    color:#000;
+    font-size: 18px;
+}
+#menu a:hover{
+    text-decoration:underline;
+    color:#016c2a;
+    font-size: 22px;
+}
